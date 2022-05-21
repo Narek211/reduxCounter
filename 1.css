@@ -1,0 +1,105 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(92, 75, 75);
+    transition: 0.5s;
+}
+.h1 {
+    display: flex;
+    justify-content: center;
+}
+.h1 h1 {
+    font-size: 50px;
+}
+
+body.dark {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(24, 13, 26);
+    transition: 0.5s;
+}
+.box {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont {
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    border: 1px, solid;
+    border-radius: 5px;
+    margin-bottom: 10vh;
+    margin-left: 20vw;
+    transition: 0.5s;
+
+}
+.cont.dark {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(70, 36, 77);
+    border: 1px, solid;
+    border-radius: 5px;
+    margin-bottom: 10vh;
+    margin-left: 10vw;
+    transition: 0.5s;
+
+}
+
+.btns {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+}
+.btn:focus {
+    border: none;
+}
+.btn.dark {
+    color: white;
+    background-color: rgb(28, 10, 43);
+    border-color: rgb(28, 10, 43);
+}
+.btn.dark:focus {
+    border: none;
+}
+
+
+.text {
+    color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    transition: 0.5s;
+
+}
+
+.text.dark {
+    color: blanchedalmond;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    transition: 0.5s;
+
+}
+
+.text h2 {
+    font-size: 35px;
+}
+
+
+.theme {
+    margin-top: 10px;
+    margin-left: 35px;
+    border-color: black;
+}
